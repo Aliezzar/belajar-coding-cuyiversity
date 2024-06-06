@@ -1,0 +1,14 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.li-navbar { 
+    color: red;
+}
