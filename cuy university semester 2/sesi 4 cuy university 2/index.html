@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="animate__animated animate__faster">
+        <div class="logo">
+            <img src="./assets/icon/partner.png" alt="logo" class="logo-img">
+            <h1 class="logo-title">ZARCODE</h1>
+        </div>
+      <nav>
+        <ul>
+          <li><a href="#katalog">KATALOG</a></li>
+          <li><a href="mailto:aliezzar42@gmail.com">EMAIL</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow Me</button>
+    </header>
+    <div class="container"> 
+      <div class="intro">
+        <p class="title animate__animated animate__backInLeft animate__delay-1s">Hello! Aliezzar Here</p>
+        <p class="description animate__animated animate__backInRight animate__delay-2s">Programmer pelajar berpendidikan from RT 69</p>
+        <img
+          src="./assets/foto/image1.png"
+          alt="aliezzar foto 1"
+          class="img-foto animate__animated animate__backInUp animate__delay-3s"
+        />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Saya adalah Programmer</p>
+        <p class="description">gak ngoding, gak mangan</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+        </div>
+      </div>
+      <div class="container">
+          <div class="card" id="katalog">
+            <div class="card-item">
+              <img src="./assets/icon/24-hours.png" alt="1" class="icon" />
+              <p class="card-title">Saya ngoding 24 jam</p>
+              <p class="card-description">
+                Siap bertarung pada coding dalam 24 jam
+              </p>
+            </div>
+            <div class="card-item">
+              <img src="./assets/icon/hot-deal.png" alt="2" class="icon" />
+              <p class="card-title">Terdapat Diskon yang Menggiurkan</p>
+              <p class="card-description">
+                gw programmer bro, bukan kapitalis
+              </p>
+            </div>
+            <div class="card-item">
+              <img src="./assets/icon/rating.png" alt="3" class="icon" />
+              <p class="card-title">666 Reiew</p>
+              <p class="card-description">
+                Saya pastikan klien pasti sangat senang bekerjasama denganku
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Aliezzar website 2024</p>
+    </footer>
+
+
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://www.instagram.com/aliezzar42"
+        }
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/6266666666666"
+        }
+    </script>
+  </body>
+</html>
