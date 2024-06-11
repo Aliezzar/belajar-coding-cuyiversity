@@ -1,0 +1,34 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#trailer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.intro {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+#btn {
+    margin-top: 20px;
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    width: 200px;
+    cursor: pointer;
+}
